@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 
-import { Header } from "@features/Header/components/Header";
+import { HeaderPage } from "@features/Header/page/Header";
 import { LayoutContainer } from "@styles/LayoutContainer";
 
 export function DefaultLayout() {
 	return (
 		<LayoutContainer>
-			<Header />
+			<HeaderPage />
 			<Outlet />
 		</LayoutContainer>
 	)

@@ -5,12 +5,9 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 0 2rem;
-
-  background-color: ${(props) => props.theme.colors["primary-dark"]};
-  color: ${(props) => props.theme.colors["base-dark"]};
-
+  padding: 2rem 1rem;
+  background-color: ${(props) => props.theme.colors["primary"]};
+  color: ${(props) => props.theme.colors["base"]};
   width: 100%;
   height: 8vh;
 
@@ -29,4 +26,5 @@ export const HeaderContainer = styled.header`
     background: none;
     border: none;
   }
-`
+`;
+
