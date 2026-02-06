@@ -1,9 +1,12 @@
 export const defaultTheme = {
 
 	colors: {
-		'primary-dark': '#0F172B',
-		'background-dark': '#020618',
-		'base-dark': '#E5E7EB'
+		'primary': '#0F172B',
+		
+		'background': 'rgb(2, 6, 24)',
+
+		'base': '#E5E7EB',
+		'base-hover': '#a6a09b' 	
 	}
 }
 
