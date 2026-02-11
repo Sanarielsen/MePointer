@@ -28,3 +28,8 @@ export const HeaderContainer = styled.header`
   }
 `;
 
+export const HeaderActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+`;

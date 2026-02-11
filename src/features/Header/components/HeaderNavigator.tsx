@@ -7,7 +7,7 @@ import {
   SideMenu,
   SideMenuItem,
   SideMenuNavigation 
-} from "@features/Header/styles/headerContainer";
+} from "@features/Header/styles/headerNavigatorContainer";
 
 export function HeaderNavigator() {
 
